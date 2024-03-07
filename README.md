@@ -20,7 +20,13 @@ python; scraping; fundamentus; investimentos; analises
 ⏭️ Desenvolver dashboard com avaliações fundamentalistas para revisão de carteira (...)
 
 ## Passo a Passo
-- Extrair dados de FII: Execute os códigos de forma sequencial: `fii_0` -> `fii_1` -> `fii_2`
-- Extrair dados de Ações: Execute os códigos de forma sequencial: `acao_0` -> `acao_1` -> `acao_2`
+Ao clonar este repositório, será necessário que (dentro dele) você realize o seguinte comando para puxar um dos requisitos para correta execução: 
+
+`git clone https://github.com/KaikeWesleyReis/fundamentus_api.git`
+
+Após isso, você pode:
+
+- Extrair dados de FII - Executando os códigos de forma sequencial: `fii_0` -> `fii_1` -> `fii_2`
+- Extrair dados de Ações - Executando os códigos de forma sequencial: `acao_0` -> `acao_1` -> `acao_2`
 
 OBS: É possível que alguns papéis mais avulsos não sejam extraídos. Isso acontece devido a lógica implementada nessas extrações: **Só são buscados papéis que estejam alocados em um setor específico. Papeis sem setores mapeados, não serão salvos**. Para saber os setores mapeados, foi necessário a construção manual da tabela `dados/FUNDAMENTUS_SETORES.xlsx` e `dados/FUNDAMENTUS_SETORES_FII.xlsx`.
